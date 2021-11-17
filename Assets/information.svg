@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="421" height="323" viewBox="0 0 421 323">
+  <defs>
+    <filter id="Rectangle_16780" x="0" y="0" width="421" height="323" filterUnits="userSpaceOnUse">
+      <feOffset dx="10" dy="53" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="33" result="blur"/>
+      <feFlood flood-opacity="0.059"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="information" transform="translate(-223 -1690)">
+    <g transform="matrix(1, 0, 0, 1, 223, 1690)" filter="url(#Rectangle_16780)">
+      <rect id="Rectangle_16780-2" data-name="Rectangle 16780" width="223" height="125" rx="12" transform="translate(89 46)" fill="#fff"/>
+    </g>
+    <rect id="Rectangle_16781" data-name="Rectangle 16781" width="92" height="7" rx="3.5" transform="translate(351 1758)" fill="#e4e4e4"/>
+    <rect id="Rectangle_16782" data-name="Rectangle 16782" width="149" height="7" rx="3.5" transform="translate(351 1780)" fill="#e4e4e4"/>
+    <rect id="Rectangle_16783" data-name="Rectangle 16783" width="65" height="7" rx="3.5" transform="translate(351 1804)" fill="#e4e4e4"/>
+    <rect id="Rectangle_16784" data-name="Rectangle 16784" width="101" height="7" rx="3.5" transform="translate(351 1828)" fill="#e4e4e4"/>
+    <g id="Group_39356" data-name="Group 39356">
+      <rect id="Rectangle_16777" data-name="Rectangle 16777" width="223" height="72" rx="14" transform="translate(312 1876)" fill="#956dfe"/>
+      <rect id="Rectangle_16778" data-name="Rectangle 16778" width="41" height="41" rx="6" transform="translate(330 1891)" fill="#fff"/>
+      <rect id="Rectangle_16800" data-name="Rectangle 16800" width="19" height="19" rx="6" transform="translate(341 1902)" fill="#e4e4e4"/>
+      <rect id="Rectangle_16779" data-name="Rectangle 16779" width="117" height="10" rx="5" transform="translate(389 1906)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

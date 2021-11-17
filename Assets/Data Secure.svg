@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="467" height="457" viewBox="0 0 467 457">
+  <defs>
+    <filter id="Rectangle_16790" x="0" y="85" width="421" height="372" filterUnits="userSpaceOnUse">
+      <feOffset dx="10" dy="53" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="33" result="blur"/>
+      <feFlood flood-opacity="0.059"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_16791" x="177" y="0" width="290" height="280" filterUnits="userSpaceOnUse">
+      <feOffset dx="10" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="33" result="blur-2"/>
+      <feFlood flood-opacity="0.078"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f66884"/>
+      <stop offset="0.496" stop-color="#f67f70"/>
+      <stop offset="1" stop-color="#c76fc1"/>
+    </linearGradient>
+  </defs>
+  <g id="Data_Secure" data-name="Data Secure" transform="translate(-741 -1643)">
+    <g transform="matrix(1, 0, 0, 1, 741, 1643)" filter="url(#Rectangle_16790)">
+      <rect id="Rectangle_16790-2" data-name="Rectangle 16790" width="223" height="174" rx="12" transform="translate(89 131)" fill="#fff"/>
+    </g>
+    <g id="Group_39333" data-name="Group 39333">
+      <rect id="Rectangle_16785" data-name="Rectangle 16785" width="26" height="85" rx="2" transform="translate(856 1835)" fill="#3a4ee8"/>
+      <rect id="Rectangle_16786" data-name="Rectangle 16786" width="26" height="23" rx="2" transform="translate(894 1897)" fill="#3a4ee8"/>
+      <rect id="Rectangle_16787" data-name="Rectangle 16787" width="26" height="102" rx="2" transform="translate(932 1818)" fill="#3a4ee8"/>
+      <rect id="Rectangle_16788" data-name="Rectangle 16788" width="26" height="51" rx="2" transform="translate(970 1869)" fill="#3a4ee8"/>
+      <rect id="Rectangle_16789" data-name="Rectangle 16789" width="26" height="59" rx="2" transform="translate(1008 1861)" fill="#3a4ee8"/>
+    </g>
+    <g id="Group_39357" data-name="Group 39357">
+      <g transform="matrix(1, 0, 0, 1, 741, 1643)" filter="url(#Rectangle_16791)">
+        <rect id="Rectangle_16791-2" data-name="Rectangle 16791" width="92" height="82" rx="12" transform="translate(266 96)" fill="#fff"/>
+      </g>
+      <circle id="Ellipse_4640" data-name="Ellipse 4640" cx="26" cy="26" r="26" transform="translate(1027 1754)" fill="#b65cd2"/>
+      <circle id="Ellipse_4641" data-name="Ellipse 4641" cx="14" cy="14" r="14" transform="translate(1039 1766)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>
