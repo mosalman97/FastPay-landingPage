@@ -1,57 +1,157 @@
-*{
-    padding: 0;
-    margin: 0;
-}
-ul li {
+* {
+    padding: 0px;
+    margin: 0px;
+  }
+  ul li {
     list-style: none;
-}
-body {
-    font-family: 'gorditaregular';
-}
-.wrapper{
-    width:90%;
-}
-@font-face {
-    font-family: 'gorditamedium_italic';
-    src: url('../Font/gordita_medium_italic-webfont.woff') format('woff2'),
-         url('../Font/gordita_medium_italic-webfont.woff') format('woff');
+  }
+  body {
+    font-family: gorditaregular;
+    text-decoration: none;
+  }
+  .wrapper {
+    width: 90%;
+    margin: 0px auto;
+  }
+  @font-face {
+    font-family: gorditamedium_italic;
+    src: url("../Font/gordita_medium_italic-webfont.woff") format("woff2"),
+      url("../Font/gordita_medium_italic-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
-
+  }
+  @font-face {
+    font-family: gorditamedium;
+    src: url("../Font/gordita_medium-webfont.woff2") format("woff2"),
+      url("../Font/gordita_medium-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: gorditaregular_italic;
+    src: url("../Font/gordita_regular_italic-webfont.woff2") format("woff2"),
+      url("../Font/gordita_regular_italic-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: gorditaregular;
+    src: url("../Font/gordita_regular-webfont.woff2") format("woff2"),
+      url("../Font/gordita_regular-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  section#main {
+  }
+  section#main section.wrapper {
+  }
+  section#main section.wrapper header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:30px 0px 30px 0px;
+  }
+  section#main section.wrapper header nav.left {
+    width: 10%;
+  }
+  section#main section.wrapper header nav.left h1 {
+  }
+  section#main section.wrapper header nav.left h1 a {
+  }
+  section#main section.wrapper header nav.left h1 a img {
+    display: block;
+    width: 100%;
+  }
+  section#main section.wrapper header nav.middle {
+  }
+  section#main section.wrapper header nav.middle ul {
+    display: flex;
+  }
+  section#main section.wrapper header nav.middle ul li {
+    margin-right: 60px;
+    font-size: 18px;
+  }
+  section#main section.wrapper header nav.middle ul li:last-child {
+    margin-right: 0px;
+  }
+  section#main section.wrapper header nav.middle ul li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgb(136, 131, 152);
+    
+    /* font-size: 18px; */
+  }
+  section#main section.wrapper header nav.middle ul li a:hover {
+      border-bottom: 3px solid #E45F83;
+      color: black;
+      font-weight: 600;
+  }
+  section#main section.wrapper header nav.middle ul li:first-child{
+    
+    border-bottom: 3px solid #E45F83;
+    
+}
+section#main section.wrapper header nav.middle ul li a.hm:first-child{
+    color: black;
+    font-weight: 600;
 }
 
-
-
-
-@font-face {
+  
+  section#main section.wrapper header nav.right {
+  
+  }
+  section#main section.wrapper header nav.right a.login-btn {
+    color: rgb(136, 131, 152);
+    text-decoration: none;
+  }
+  section#main section.wrapper header nav.right a.signup-btn {
+    text-decoration: none;
+    background: rgb(228, 95, 131);
+    padding: 10px 25px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    margin-left: 15px;
+  }
+  section#main section.wrapper section.spotlight {
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  section#main section.wrapper section.spotlight div.left {
+    width: 32%;
+    background-color: #F8F8FA;
+    padding: 126px;
+  }
+  section#main section.wrapper section.spotlight div.left p {
+    color: rgb(136, 131, 152);
+    font-weight: 600;
+    font-size: 20px;
+  }
+  section#main section.wrapper section.spotlight div.left p.para{
+      color: rgb(136, 131, 152);
+      /* width: 50%; */
+      margin:10px 0px 25px 0px;
+      /* width: 75%; */
+      font-size: 18px;
+  }
+  section#main section.wrapper section.spotlight div.left h1 {
+    font-size: 60px;
     font-family: 'gorditamedium';
-    src: url('../Font/gordita_medium-webfont.woff2') format('woff2'),
-         url('../Font/gordita_medium-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'gorditaregular_italic';
-    src: url('../Font/gordita_regular_italic-webfont.woff2') format('woff2'),
-         url('../Font/gordita_regular_italic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'gorditaregular';
-    src: url('../Font/gordita_regular-webfont.woff2') format('woff2'),
-         url('../Font/gordita_regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
+    
+  }
+  section#main section.wrapper section.spotlight div.left a.get-btn {
+      text-decoration: none;
+      background: rgb(228, 95, 131);
+      padding: 12px 30px;
+      border-radius: 10px;
+      color: rgb(255, 255, 255);
+      display: inline-block;
+  }
+  section#main section.wrapper section.spotlight div.right {
+    width: 60%;
+  }
+  section#main section.wrapper section.spotlight div.right img {
+    display: block;
+    width: 100%;
+  }
+  
