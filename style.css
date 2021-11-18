@@ -143,3 +143,354 @@ section#main section.wrapper section.spotlight div.right img {
   display: block;
   width: 100%;
 }
+section.cards {
+  padding: 80px 0px;
+}
+section.cards section.wrapper {
+}
+section.cards section.wrapper div.head {
+}
+section.cards section.wrapper div.head h2 {
+  text-transform: capitalize;
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+}
+section.cards section.wrapper div.head p {
+  color: gray;
+  text-align: center;
+  font-weight: 600;
+  margin: 30px auto 0px;
+  width: 32%;
+  line-height: 30px;
+}
+section.cards section.wrapper div.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section.cards section.wrapper div.card-container div.item1 {
+}
+section.cards section.wrapper div.card-container div.item1 div.image {
+  display: block;
+  width: 100%;
+}
+section.cards section.wrapper div.card-container div.item1 div.image img {
+  display: block;
+  width: 100%;
+}
+section.cards section.wrapper div.card-container div.item1 div.content {
+  /* text-align: left; */
+  margin: 0 auto;
+  width: 45%;
+}
+section.cards section.wrapper div.card-container div.item1 div.content h3 {
+  text-transform: capitalize;
+  font-size: 30px;
+}
+section.cards section.wrapper div.card-container div.item1 div.content p {
+  font-weight: 500;
+  color: gray;
+  margin-top: 15px;
+  line-height: 25px;
+  font-weight: 600;
+}
+section.cards section.wrapper div.card-container div.item2 {
+}
+section.cards section.wrapper div.card-container div.item2 div.image {
+  width: 100%;
+}
+section.cards section.wrapper div.card-container div.item2 div.image img {
+  display: block;
+  width: 100%;
+}
+section.cards section.wrapper div.card-container div.item2 div.content {
+}
+section.cards section.wrapper div.card-container div.item2 div.content h3 {
+}
+section.cards section.wrapper div.card-container div.item2 div.content p {
+}
+section.cards section.wrapper div.card-container div.item3 {
+}
+section.cards section.wrapper div.card-container div.item3 div.image {
+}
+section.cards section.wrapper div.card-container div.item3 div.image img {
+  display: block;
+  width: 100%;
+}
+section.cards section.wrapper div.card-container div.item3 div.content {
+}
+section.cards section.wrapper div.card-container div.item3 div.content h3 {
+}
+section.cards section.wrapper div.card-container div.item3 div.content p {
+}
+* {
+  padding: 0px;
+  margin: 0px;
+}
+ul li {
+  list-style: none;
+}
+body {
+  font-family: gorditaregular;
+  text-decoration: none;
+}
+.wrapper {
+  width: 90%;
+  margin: 0px auto;
+}
+@font-face {
+  font-family: gorditamedium_italic;
+  src: url("../Font/gordita_medium_italic-webfont.woff") format("woff2"),
+    url("../Font/gordita_medium_italic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: gorditamedium;
+  src: url("../Font/gordita_medium-webfont.woff2") format("woff2"),
+    url("../Font/gordita_medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: gorditaregular_italic;
+  src: url("../Font/gordita_regular_italic-webfont.woff2") format("woff2"),
+    url("../Font/gordita_regular_italic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: gorditaregular;
+  src: url("../Font/gordita_regular-webfont.woff2") format("woff2"),
+    url("../Font/gordita_regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+section#main {
+}
+section#main section.wrapper {
+}
+section#main section.wrapper header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0px 40px;
+}
+section#main section.wrapper header nav.left {
+  width: 10%;
+}
+section#main section.wrapper header nav.left h1 {
+}
+section#main section.wrapper header nav.left h1 a {
+}
+section#main section.wrapper header nav.left h1 a img {
+  display: block;
+  width: 100%;
+}
+section#main section.wrapper header nav.middle {
+}
+section#main section.wrapper header nav.middle ul {
+  display: flex;
+}
+section#main section.wrapper header nav.middle ul li {
+  margin-right: 60px;
+  font-size: 18px;
+}
+section#main section.wrapper header nav.middle ul li:last-child {
+  margin-right: 0px;
+}
+section#main section.wrapper header nav.middle ul li a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: rgb(136, 131, 152);
+}
+section#main section.wrapper header nav.middle ul li a:hover {
+  border-bottom: 3px solid rgb(228, 95, 131);
+  color: black;
+  font-weight: 600;
+}
+section#main section.wrapper header nav.middle ul li:first-child {
+  border-bottom: 3px solid rgb(228, 95, 131);
+}
+section#main section.wrapper header nav.middle ul li a.hm:first-child {
+  color: black;
+  font-weight: 600;
+}
+section#main section.wrapper header nav.right {
+}
+section#main section.wrapper header nav.right a.login-btn {
+  color: rgb(136, 131, 152);
+  text-decoration: none;
+}
+section#main section.wrapper header nav.right a.signup-btn {
+  text-decoration: none;
+  background: rgb(228, 95, 131);
+  padding: 18px 37px;
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
+  margin-left: 35px;
+}
+section#main section.wrapper section.spotlight {
+  display: flex;
+  justify-content: space-between;
+}
+section#main section.wrapper section.spotlight div.left {
+  width: 32%;
+  background-color: rgb(248, 248, 250);
+  padding: 126px;
+}
+section#main section.wrapper section.spotlight div.left p {
+  color: rgb(136, 131, 152);
+  font-weight: 600;
+  font-size: 20px;
+}
+section#main section.wrapper section.spotlight div.left p.para {
+  color: rgb(136, 131, 152);
+  margin: 10px 0px 25px;
+  font-size: 18px;
+}
+section#main section.wrapper section.spotlight div.left h1 {
+  font-size: 60px;
+  font-family: gorditamedium;
+}
+section#main section.wrapper section.spotlight div.left a.get-btn {
+  text-decoration: none;
+  background: rgb(228, 95, 131);
+  padding: 18px 40px;
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
+  display: inline-block;
+}
+section#main section.wrapper section.spotlight div.right {
+  width: 60%;
+}
+section#main section.wrapper section.spotlight div.right img {
+  display: block;
+  width: 100%;
+}
+section.cards {
+  padding: 80px 0px;
+}
+section.cards section.wrapper {
+}
+section.cards section.wrapper div.head {
+}
+section.cards section.wrapper div.head h2 {
+  text-transform: capitalize;
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+}
+section.cards section.wrapper div.head p {
+  color: gray;
+  text-align: center;
+  font-weight: 600;
+  margin: 30px auto 0px;
+  width: 32%;
+  line-height: 30px;
+}
+section.cards section.wrapper div.card-container {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./Assets/how\ it\ work\ -\ path.svg);
+  background-repeat: no-repeat;
+}
+section.cards section.wrapper div.card-container div.item1 {
+  width: 33%;
+}
+section.cards section.wrapper div.card-container div.item1 div.image {
+  /* display: block; */
+  height: 300px;
+  margin: 0 auto;
+  width: 300px;
+}
+section.cards section.wrapper div.card-container div.item1 div.image img {
+  display: block;
+  width: 100%;
+}
+section.cards section.wrapper div.card-container div.item1 div.content {
+  /* text-align: left; */
+  margin: 0 auto;
+  width: 40%;
+}
+section.cards section.wrapper div.card-container div.item1 div.content h3 {
+  text-transform: capitalize;
+  font-size: 30px;
+}
+section.cards section.wrapper div.card-container div.item1 div.content p {
+  font-weight: 500;
+  color: gray;
+  margin-top: 15px;
+  line-height: 25px;
+  font-weight: 600;
+}
+section.cards section.wrapper div.card-container div.item2 {
+  width: 33%;
+}
+section.cards section.wrapper div.card-container div.item2 div.image {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+}
+section.cards section.wrapper div.card-container div.item2 div.image img {
+  display: block;
+  width: 100%;
+}
+section.cards section.wrapper div.card-container div.item2 div.content {
+  margin: 0 auto;
+  width: 45%;
+}
+section.cards section.wrapper div.card-container div.item2 div.content h3 {
+  text-transform: capitalize;
+  font-size: 30px;
+}
+section.cards section.wrapper div.card-container div.item2 div.content p {
+  font-weight: 500;
+  color: gray;
+  margin-top: 15px;
+  line-height: 25px;
+  font-weight: 600;
+}
+section.cards section.wrapper div.card-container div.item3 {
+  width: 33%;
+}
+section.cards section.wrapper div.card-container div.item3 div.image {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  position: relative;
+}
+section.cards section.wrapper div.card-container div.item3 div.image img {
+  display: block;
+  width: 100%;
+}
+section.cards section.wrapper div.card-container div.item3 div.image span {
+  
+font-weight: bold;
+  
+position: absolute;
+  
+top: 110px;
+  
+left: 110px;
+  
+font-size: 12px;
+}
+section.cards section.wrapper div.card-container div.item3 div.content {
+  margin: 0 auto;
+  width: 56%;
+}
+section.cards section.wrapper div.card-container div.item3 div.content h3 {
+  text-transform: capitalize;
+  font-size: 30px;
+}
+section.cards section.wrapper div.card-container div.item3 div.content p {
+  font-weight: 500;
+  color: gray;
+  margin-top: 15px;
+  line-height: 25px;
+  font-weight: 600;
+}
