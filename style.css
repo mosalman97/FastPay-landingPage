@@ -180,8 +180,7 @@ section.cards section.wrapper div.card-container div.item1 div.image img {
   width: 100%;
 }
 section.cards section.wrapper div.card-container div.item1 div.content {
-  /* text-align: left; */
-  margin: 0 auto;
+  margin: 0px auto;
   width: 45%;
 }
 section.cards section.wrapper div.card-container div.item1 div.content h3 {
@@ -189,7 +188,6 @@ section.cards section.wrapper div.card-container div.item1 div.content h3 {
   font-size: 30px;
 }
 section.cards section.wrapper div.card-container div.item1 div.content p {
-  font-weight: 500;
   color: gray;
   margin-top: 15px;
   line-height: 25px;
@@ -395,20 +393,17 @@ section.cards section.wrapper div.card-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(./Assets/how\ it\ work\ -\ path.svg);
+  background-image: url("./Assets/how it work - path.svg");
   background-repeat: no-repeat;
   background-size: 76%;
-  background-position: left 26px right;
-  background-position: left 30px right 40px;
   background-position: center 30px;
 }
 section.cards section.wrapper div.card-container div.item1 {
   width: 33%;
 }
 section.cards section.wrapper div.card-container div.item1 div.image {
-  /* display: block; */
   height: 300px;
-  margin: 0 auto;
+  margin: 0px auto;
   width: 300px;
 }
 section.cards section.wrapper div.card-container div.item1 div.image img {
@@ -416,8 +411,7 @@ section.cards section.wrapper div.card-container div.item1 div.image img {
   width: 100%;
 }
 section.cards section.wrapper div.card-container div.item1 div.content {
-  /* text-align: left; */
-  margin: 0 auto;
+  margin: 0px auto;
   width: 40%;
 }
 section.cards section.wrapper div.card-container div.item1 div.content h3 {
@@ -425,7 +419,6 @@ section.cards section.wrapper div.card-container div.item1 div.content h3 {
   font-size: 30px;
 }
 section.cards section.wrapper div.card-container div.item1 div.content p {
-  font-weight: 500;
   color: gray;
   margin-top: 15px;
   line-height: 25px;
@@ -437,14 +430,14 @@ section.cards section.wrapper div.card-container div.item2 {
 section.cards section.wrapper div.card-container div.item2 div.image {
   width: 300px;
   height: 300px;
-  margin: 0 auto;
+  margin: 0px auto;
 }
 section.cards section.wrapper div.card-container div.item2 div.image img {
   display: block;
   width: 100%;
 }
 section.cards section.wrapper div.card-container div.item2 div.content {
-  margin: 0 auto;
+  margin: 0px auto;
   width: 45%;
 }
 section.cards section.wrapper div.card-container div.item2 div.content h3 {
@@ -452,7 +445,6 @@ section.cards section.wrapper div.card-container div.item2 div.content h3 {
   font-size: 30px;
 }
 section.cards section.wrapper div.card-container div.item2 div.content p {
-  font-weight: 500;
   color: gray;
   margin-top: 15px;
   line-height: 25px;
@@ -464,7 +456,7 @@ section.cards section.wrapper div.card-container div.item3 {
 section.cards section.wrapper div.card-container div.item3 div.image {
   width: 300px;
   height: 300px;
-  margin: 0 auto;
+  margin: 0px auto;
   position: relative;
 }
 section.cards section.wrapper div.card-container div.item3 div.image img {
@@ -472,19 +464,14 @@ section.cards section.wrapper div.card-container div.item3 div.image img {
   width: 100%;
 }
 section.cards section.wrapper div.card-container div.item3 div.image span {
-  
-font-weight: bold;
-  
-position: absolute;
-  
-top: 110px;
-  
-left: 110px;
-  
-font-size: 12px;
+  font-weight: bold;
+  position: absolute;
+  top: 110px;
+  left: 110px;
+  font-size: 12px;
 }
 section.cards section.wrapper div.card-container div.item3 div.content {
-  margin: 0 auto;
+  margin: 0px auto;
   width: 56%;
 }
 section.cards section.wrapper div.card-container div.item3 div.content h3 {
@@ -492,88 +479,127 @@ section.cards section.wrapper div.card-container div.item3 div.content h3 {
   font-size: 30px;
 }
 section.cards section.wrapper div.card-container div.item3 div.content p {
-  font-weight: 500;
   color: gray;
   margin-top: 15px;
   line-height: 25px;
   font-weight: 600;
 }
-section#middle { 
+section#middle {
+  padding: 100px 0px 50px;
+}
+section#middle section.wrapper {
+}
+section#middle section.wrapper div.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+section#middle section.wrapper div.top div.left {
+  width: 30%;
+}
+section#middle section.wrapper div.top div.left img {
+  display: block;
+  width: 100%;
+}
+section#middle section.wrapper div.top div.right {
+  width: 25%;
+}
+section#middle section.wrapper div.top div.right h3 {
+  font-size: 40px;
+}
+section#middle section.wrapper div.top div.right p {
+  color: gray;
+  margin: 10px 0px 50px;
+  line-height: 25px;
+}
+section#middle section.wrapper div.top div.right div.box-container {
+  display: inline-block;
+}
+section#middle section.wrapper div.top div.right div.box-container div.box {
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  border: 1px solid gray;
+  padding: 8px 20px;
+  width: 60%;
+}
+section#middle
+  section.wrapper
+  div.top
+  div.right
+  div.box-container
+  div.box:nth-child(2) {
+  margin-top: 15px;
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  border: 1px solid gray;
+  padding: 8px 20px;
+  width: 60%;
+}
+section#middle
+  section.wrapper
+  div.top
+  div.right
+  div.box-container
+  div.box
+  div.image {
+  width: 35%;
+}
+section#middle
+  section.wrapper
+  div.top
+  div.right
+  div.box-container
+  div.box
+  div.image
+  img {
+  display: block;
+  width: 100%;
+}
+section#middle section.wrapper div.top div.right div.box-container div.box h5 {
+  margin-left: 12px;
+  text-transform: capitalize;
+}
+section#middle section.wrapper div.bottom {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+section#middle section.wrapper div.bottom div.left {
+  width: 25%;
+}
+section#middle section.wrapper div.bottom div.left h3 {
+  font-size: 40px;
+  text-transform: capitalize;
+}
+section#middle section.wrapper div.bottom div.left p {
+  color: gray;
+  line-height: 25px;
+  margin: 10px 0px 30px;
+}
+section#middle section.wrapper div.bottom div.left a.button {
+  text-decoration: none;
+  border-radius: 12px;
+  border: 1px solid gray;
+  padding: 10px 20px;
+  display: inline-block;
+  color: black;
+  font-weight: bold;
+}
+section#middle section.wrapper div.bottom div.right {
+  width: 30%;
+}
+section#middle section.wrapper div.bottom div.right img {
+  display: block;
+  width: 100%;
+}
+section.subscribe {
+    padding-bottom: 50px;
+}
+
+section.subscribe section.wrapper { 
 
 }
 
-section#middle section.wrapper { 
-
-}
-
-section#middle section.wrapper div.top { 
-
-}
-
-section#middle section.wrapper div.top div.left { 
-
-}
-
-section#middle section.wrapper div.top div.left img { 
-
-}
-
-section#middle section.wrapper div.top div.right { 
-
-}
-
-section#middle section.wrapper div.top div.right h3 { 
-
-}
-
-section#middle section.wrapper div.top div.right p { 
-
-}
-
-section#middle section.wrapper div.top div.right div.box-container { 
-
-}
-
-section#middle section.wrapper div.top div.right div.box-container div.box { 
-
-}
-
-section#middle section.wrapper div.top div.right div.box-container div.box div.image { 
-
-}
-
-section#middle section.wrapper div.top div.right div.box-container div.box div.image img { 
-
-}
-
-section#middle section.wrapper div.top div.right div.box-container div.box h5 { 
-
-}
-
-section#middle section.wrapper div.top div.bottom { 
-
-}
-
-section#middle section.wrapper div.top div.bottom div.left { 
-
-}
-
-section#middle section.wrapper div.top div.bottom div.left h3 { 
-
-}
-
-section#middle section.wrapper div.top div.bottom div.left p { 
-
-}
-
-section#middle section.wrapper div.top div.bottom div.left a.button { 
-
-}
-
-section#middle section.wrapper div.top div.bottom div.right { 
-
-}
-
-section#middle section.wrapper div.top div.bottom div.right img { 
-
-}
