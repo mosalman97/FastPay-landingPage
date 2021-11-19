@@ -519,7 +519,7 @@ section#middle section.wrapper div.top div.right div.box-container div.box {
   border-radius: 18px;
   display: flex;
   align-items: center;
-  border: 1px solid gray;
+  border: 1px solid lightgray;
   padding: 8px 20px;
   width: 60%;
 }
@@ -533,7 +533,7 @@ section#middle
   border-radius: 18px;
   display: flex;
   align-items: center;
-  border: 1px solid gray;
+  border: 1px solid lightgray;
   padding: 8px 20px;
   width: 60%;
 }
@@ -582,7 +582,7 @@ section#middle section.wrapper div.bottom div.left p {
 section#middle section.wrapper div.bottom div.left a.button {
   text-decoration: none;
   border-radius: 12px;
-  border: 1px solid gray;
+  border: 3px solid rgb(228, 95, 131);
   padding: 10px 20px;
   display: inline-block;
   color: black;
@@ -596,10 +596,42 @@ section#middle section.wrapper div.bottom div.right img {
   width: 100%;
 }
 section.subscribe {
-    padding-bottom: 50px;
+  padding-bottom: 50px;
 }
-
-section.subscribe section.wrapper { 
-
+section.subscribe section.wrapper {
 }
-
+section.subscribe section.wrapper div.content {
+  text-align: center;
+}
+section.subscribe section.wrapper div.content h3 {
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+section.subscribe section.wrapper div.content p {
+  color: gray;
+  font-weight: 600;
+}
+section.subscribe section.wrapper div.form {
+  margin-top: 40px;
+}
+section.subscribe section.wrapper div.form form {
+  border: 1px solid lightgray;
+  padding: 8px 8px 8px 20px;
+  width: 35%;
+  margin: 0px auto;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+section.subscribe section.wrapper div.form form input.email {
+  border: none;
+}
+section.subscribe section.wrapper div.form form input.btn {
+  padding: 15px 30px;
+  border-radius: 10px;
+  background: #E45F83;
+  border: none;
+}
