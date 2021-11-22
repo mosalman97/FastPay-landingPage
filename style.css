@@ -544,7 +544,7 @@ section#middle
   div.box-container
   div.box
   div.image {
-  width: 35%;
+  width: 30%;
 }
 section#middle
   section.wrapper
@@ -611,6 +611,7 @@ section.subscribe section.wrapper div.content h3 {
 section.subscribe section.wrapper div.content p {
   color: gray;
   font-weight: 600;
+  margin-top: 5px;
 }
 section.subscribe section.wrapper div.form {
   margin-top: 40px;
@@ -632,6 +633,139 @@ section.subscribe section.wrapper div.form form input.email {
 section.subscribe section.wrapper div.form form input.btn {
   padding: 15px 30px;
   border-radius: 10px;
-  background: #E45F83;
+  background: rgb(228, 95, 131);
   border: none;
+}
+section#footer {
+  padding-bottom: 50px;
+}
+section#footer section.wrapper {
+}
+section#footer section.wrapper div.container {
+  padding: 100px 100px 30px 100px;
+  background: rgb(248, 248, 250);
+}
+section#footer section.wrapper div.container div.box-container {
+  display: flex;
+  justify-content: space-between;
+}
+section#footer section.wrapper div.container  p.ft {
+
+text-align: center;
+
+color: gray;
+
+margin-top: 70px;
+
+/* margin: 0 auto; */
+}
+section#footer section.wrapper div.container div.box-container ul {
+}
+section#footer section.wrapper div.container div.box-container ul div.image {
+  width: 35%;
+}
+section#footer
+  section.wrapper
+  div.container
+  div.box-container
+  ul
+  div.image
+  img {
+  display: block;
+  width: 100%;
+}
+section#footer section.wrapper div.container div.box-container ul li {
+  margin-top: 15px;
+}
+section#footer section.wrapper div.container div.box-container ul h4 {
+  text-transform: capitalize;
+}
+section#footer section.wrapper div.container div.box-container ul li p {
+  font-size: 15px;
+  color: gray;
+  width: 50%;
+  font-weight: 600;
+  margin: 30px 0px;
+}
+section#footer section.wrapper div.container div.box-container ul li a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: gray;
+}
+section#footer section.wrapper div.container div.box-container ul div.image1 {
+  display: inline-block;
+  background: lightgray;
+  border-radius: 4px;
+  margin-right: 15px;
+  padding: 7px 15px;
+}
+section#footer section.wrapper div.container div.box-container ul div.image1 {
+}
+section#footer
+  section.wrapper
+  div.container
+  div.box-container
+  ul
+  div.image1
+  img {
+}
+section#footer
+  section.wrapper
+  div.container
+  div.box-container
+  ul
+  div.image-container {
+}
+section#footer
+  section.wrapper
+  div.container
+  div.box-container
+  ul
+  div.image-container
+  div.facebook {
+}
+section#footer
+  section.wrapper
+  div.container
+  div.box-container
+  ul
+  div.image-container
+  div.facebook
+  img {
+}
+section#footer
+  section.wrapper
+  div.container
+  div.box-container
+  ul
+  div.image-container
+  div.twitter {
+}
+section#footer
+  section.wrapper
+  div.container
+  div.box-container
+  ul
+  div.image-container
+  div.twitter
+  img {
+}
+section#footer
+  section.wrapper
+  div.container
+  div.box-container
+  ul
+  div.image-container
+  div.linkedin {
+}
+section#footer
+  section.wrapper
+  div.container
+  div.box-container
+  ul
+  div.image-container
+  div.linkedin
+  img {
+}
+section#footer section.wrapper div.container p {
 }
